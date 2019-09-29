@@ -1,4 +1,4 @@
-package com.wolfer.view;
+package cn.zhengshang.view;
 
 import android.app.AlarmManager;
 import android.app.AlertDialog;
@@ -24,10 +24,10 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.wolfer.lalarm.R;
-import com.wolfer.service.MyTime;
-
 import java.util.ArrayList;
+
+import cn.zhengshang.service.MyTime;
+import cn.zhengshang.wordalarm.R;
 
 public class MainActivity extends AppCompatActivity {
     public static final int SET_CODE = 1;

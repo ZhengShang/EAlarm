@@ -1,4 +1,4 @@
-package com.wolfer.view;
+package cn.zhengshang.view;
 
 import android.app.Activity;
 import android.app.Service;
@@ -17,11 +17,11 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.wolfer.lalarm.R;
-import com.wolfer.service.MyTime;
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+
+import cn.zhengshang.service.MyTime;
+import cn.zhengshang.wordalarm.R;
 
 public class AlarmActivity extends Activity implements OnClickListener {
     private MediaPlayer mediaPlayer;

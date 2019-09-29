@@ -1,4 +1,4 @@
-package com.wolfer.view;
+package cn.zhengshang.view;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -8,12 +8,12 @@ import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
 
-import com.wolfer.lalarm.R;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import cn.zhengshang.wordalarm.R;
 
 public class Settings extends Activity {
     @Override

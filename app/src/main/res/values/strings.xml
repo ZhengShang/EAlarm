@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">小E闹钟</string>
+    <string name="app_name">单词闹钟</string>
     <string name="action_settings">设置</string>
     <string name="alarm_close">停止</string>
     <string name="alarm_onemin">再睡一分钟</string>

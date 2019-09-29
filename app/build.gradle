@@ -2,10 +2,10 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 29
-    buildToolsVersion "29.0.0"
+    buildToolsVersion "29.0.2"
 
     defaultConfig {
-        applicationId "com.wolfer.lalarm"
+        applicationId "cn.zhengshang.wordalarm"
         minSdkVersion 21
         targetSdkVersion 29
     }

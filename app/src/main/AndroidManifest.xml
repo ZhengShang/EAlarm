@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.wolfer.lalarm">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="cn.zhengshang.wordalarm">
 
     <uses-permission android:name="android.permission.VIBRATE" />
 
@@ -8,9 +9,10 @@
         android:allowBackup="true"
         android:icon="@drawable/icon"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
         <activity
-            android:name="com.wolfer.view.MainActivity"
+            android:name="cn.zhengshang.view.MainActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,8 +20,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.wolfer.view.Settings"></activity>
-        <activity android:name="com.wolfer.view.AlarmActivity"></activity>
+        <activity android:name="cn.zhengshang.view.Settings" />
+        <activity android:name="cn.zhengshang.view.AlarmActivity" />
     </application>
 
 </manifest>
