@@ -3,20 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="cn.zhengshang.wordalarm">
 
-    <uses-permission android:name="android.permission.VIBRATE" />
-
     <application
         android:icon="@drawable/icon"
         android:label="@string/app_name"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
-            android:name="cn.zhengshang.view.MainActivity"
+            android:name="cn.zhengshang.MainActivity"
             android:label="@string/app_name">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            <!--            <intent-filter>-->
+            <!--                <action android:name="android.intent.action.MAIN" />-->
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <!--                <category android:name="android.intent.category.LAUNCHER" />-->
+            <!--            </intent-filter>-->
         </activity>
         <activity android:name="cn.zhengshang.view.Settings" />
         <activity android:name="cn.zhengshang.view.AlarmActivity" />

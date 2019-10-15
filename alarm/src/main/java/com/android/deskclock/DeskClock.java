@@ -455,6 +455,7 @@ public class DeskClock extends BaseActivity
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         // Recreate the activity if any settings have been changed
+        super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == SettingsMenuItemController.REQUEST_CHANGE_SETTINGS
                 && resultCode == RESULT_OK) {
             mRecreateActivity = true;
